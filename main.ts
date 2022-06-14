@@ -1,0 +1,17 @@
+function Square1 () {
+    square1 = PixelBox.createImage("squerr1")
+    PixelBox.setPixelboxColorsForCol(square1, 0, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 1, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 2, 0x000000, 0xff0000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 3, 0x000000, 0xff0000, 0x000000, 0x000000, 0xff0000, 0xff0000, 0xff0000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 4, 0xff0000, 0xff0000, 0xff0000, 0x000000, 0x000000, 0x000000, 0xff0000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 5, 0x000000, 0xff0000, 0x000000, 0x000000, 0x000000, 0x000000, 0xff0000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 6, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000)
+    PixelBox.setPixelboxColorsForCol(square1, 7, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000, 0x000000)
+}
+let square1: PixelBox.PixelBoxImage = null
+Square1()
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.showIcon(IconNames.SmallHeart)
+})
